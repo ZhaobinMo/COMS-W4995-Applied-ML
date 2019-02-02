@@ -1,8 +1,0 @@
-language: python
-python:
-  - "3.6"
-  
-# there is no python 3.7 archive, the xenial is used instead
-dist: xenial
-script:
-  - pytest
