@@ -1,9 +1,5 @@
 dist: xenial
 language: python
-ev:
-    global:
-        - TRAVIS_HOME=${TRAVIS_BUILD_DIR}
-        - 
 python:
   - "3.6"
   - "3.7"
