@@ -5,3 +5,6 @@ python:
   - "3.7"
 script:
   - pytest # or pytest for Python versions 3.5 and below
+  
+ install: 
+  - pip install pandas
