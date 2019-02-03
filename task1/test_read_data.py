@@ -26,6 +26,7 @@ headers = df.iloc[0]
 df  = pd.DataFrame(df.values[1:], columns=headers)
 
 df['2010'] = df['2010'].apply(lambda x : 0 if x == '"0"' else x )
+
 df['2010'] = df['2010'].astype(float)
 
 
