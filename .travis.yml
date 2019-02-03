@@ -1,7 +1,12 @@
 dist: xenial
 language: python
+ev:
+    global:
+        - TRAVIS_HOME=${TRAVIS_BUILD_DIR}
+        - 
 python:
   - "3.6"
   - "3.7"
+before_script:cd task1
 script:
   - pytest # or pytest for Python versions 3.5 and below
