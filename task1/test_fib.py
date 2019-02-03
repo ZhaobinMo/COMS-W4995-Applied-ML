@@ -8,6 +8,4 @@ Created on Sat Feb  2 18:00:48 2019
 from fib import fib
 
 def test_fib():
-    assert fib(2) == 1
-    assert fib(5) == 5
-    assert fib(12) == 144
+    assert ((fib(2) == 1)&(fib(5) == 5)&(fib(12) == 144))
