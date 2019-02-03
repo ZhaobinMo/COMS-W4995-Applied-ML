@@ -3,6 +3,7 @@ language: python
 python:
   - "3.6"
   - "3.7"
-before_script:cd task1
+before_script:
+  - cd task1
 script:
   - pytest # or pytest for Python versions 3.5 and below
